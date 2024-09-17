@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: order-service # Tên của microservice
+  cloud:
+    config:
+      uri: http://localhost:8888  # Địa chỉ của Config Server
+      profile: default
+      label: main
